@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class AllPalindromicSubstrings {
 
-	public ArrayList<String> findLongestPalindromicString (String str) {
+	public ArrayList<String> findPalindromicString (String str) {
 
 		char[] c = str.toCharArray();
 		ArrayList<String> al = new ArrayList<String>();
@@ -44,7 +44,7 @@ public class AllPalindromicSubstrings {
 
 		String str = new String("abcabccbab");
 		Practice p = new Practice();
-		ArrayList<String> answer = p.findLongestPalindromicString(str);
+		ArrayList<String> answer = p.findPalindromicString(str);
 		for (String a:answer) {
 			System.out.println(a);
 		}
